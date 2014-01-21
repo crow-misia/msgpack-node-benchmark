@@ -1,0 +1,23 @@
+{
+	"name": "msgpack-node-benchmark",
+	"description": "msgpack library benchmark for node.js",
+	"version": "0.0.1",
+	"homepage": "https://github.com/crow-misia/msgpack-node-benchmark",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/crow-misia/msgpack-node-benchmark.git"
+	},
+	"dependencies": {
+		"msgpack-js": "https://github.com/naokikimura/msgpack-js/tarball/spike",
+		"msgpack": "*"
+	},
+	"devDependencies": {
+		"nodeunit" : "https://github.com/godsflaw/nodeunit/archive/master.tar.gz"
+	},
+	"engines": {
+		"node": ">=0.8.x"
+	},
+	"scripts": {
+		"test": "./run_tests"
+	}
+}
